@@ -179,7 +179,7 @@ declare class Achievement {
     api: string;
     name: string;
     description: string;
-    achievend: boolean;
+    achieved: boolean;
     unlockTime: number;
 
     get unlockedAt(): Date;
